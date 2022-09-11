@@ -1,3 +1,6 @@
+@extends('layouts.layout_admin')
+
+@section('content')
 <a href ="{{route('addNew')}}">Add New</a>
 <table>
     <tr>
@@ -15,3 +18,4 @@
     </tr>
     @endforeach
 </table>
+@endsection

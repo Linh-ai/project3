@@ -208,11 +208,11 @@
                                 </a>
                                 <ul class="sidebar-submenu">
                                     <li>
-                                        <a href="">Brand List</a>
+                                        <a href="{{route('listBrands')}}">Brand List</a>
                                     </li>
 
                                     <li>
-                                        <a href="">Add New Brand</a>
+                                        <a href="{{route('addNew')}}">Add New Brand</a>
                                     </li>
                                 </ul>
                             </li>
@@ -332,7 +332,7 @@
             <!-- Container-fluid Ends-->
 
             <!-- footer start-->
-            <div class="container-fluid">
+            <!-- <div class="container-fluid">
                 <footer class="footer">
                     <div class="row">
                         <div class="col-md-12 footer-copyright text-center">
@@ -340,7 +340,7 @@
                         </div>
                     </div>
                 </footer>
-            </div>
+            </div> -->
             <!-- footer End-->
         </div>
         <!-- index body end -->

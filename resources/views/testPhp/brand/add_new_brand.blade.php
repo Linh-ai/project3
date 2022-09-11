@@ -1,3 +1,6 @@
+@extends('layouts.layout_admin')
+
+@section('content')
 {{$msg ?? ' '}}
 <form method = "post">
     @csrf
@@ -5,3 +8,4 @@
     <input type = "submit">
 </form>
 <a href="{{route('listBrands')}}">Show list</a>
+@endsection
